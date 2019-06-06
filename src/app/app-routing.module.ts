@@ -8,7 +8,7 @@ const routes: Routes = [
   {
     path: 'shopping-list',
     component: ShoppingListComponent,
-    canActivate: [ AuthService ]
+    canActivate: [AuthService]
   },
   {
     path: 'about',
